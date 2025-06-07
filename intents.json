@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hi there",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "how are you",
+        "hi can you help",
+        "hey there",
+        "greetings",
+        "is anyone there",
+        "yo",
+        "hiya",
+        "whats up",
+        "howdy",
+        "hi hello",
+        "hey hey",
+        "good evening",
+        "hi support",
+        "hello there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! I'm here to help.",
+        "Hey! What's up?"
+      ]
+    },
+    {
+      "tag": "Billing inquiry",
+      "patterns": [
+        "what is my bill amount",
+        "how to check my invoice",
+        "show me my billing details",
+        "billing issue",
+        "how much do I owe",
+        "check my bill",
+        "invoice details",
+        "billing problem",
+        "bill question",
+        "billing error"
+      ],
+      "responses": [
+        "Sure! Let me help you with billing.",
+        "Can you specify your billing question?",
+        "Let's check your billing details."
+      ]
+    },
+    {
+      "tag": "Cancellation request",
+      "patterns": [
+        "cancel my subscription",
+        "how do I stop my service",
+        "end my account",
+        "terminate my plan",
+        "cancel my membership",
+        "stop my subscription",
+        "cancel account",
+        "end subscription",
+        "deactivate account"
+      ],
+      "responses": [
+        "I can help you cancel your service.",
+        "Let's process your cancellation. Please provide details.",
+        "Sorry to see you go! I'll guide you through cancellation."
+      ]
+    },
+    {
+      "tag": "Product inquiry",
+      "patterns": [
+        "tell me about your products",
+        "what features do you offer",
+        "product details please",
+        "info on your services",
+        "what do you sell",
+        "product information",
+        "service details",
+        "product specs",
+        "product features"
+      ],
+      "responses": [
+        "Here's more info about the product.",
+        "Tell me which product you're interested in!",
+        "Let's dive into our product features."
+      ]
+    },
+    {
+      "tag": "Refund request",
+      "patterns": [
+        "i want a refund",
+        "can you process my refund",
+        "return my money",
+        "refund my purchase",
+        "how to get a refund",
+        "money back",
+        "refund request",
+        "get my money back",
+        "charge reversal"
+      ],
+      "responses": [
+        "I'll assist you with the refund process.",
+        "Let's start your refund. Please share order details.",
+        "Sorry for the trouble! I'll help with your refund."
+      ]
+    },
+    {
+      "tag": "Technical issue",
+      "patterns": [
+        "my app is not working",
+        "website is down",
+        "i am not able to login",
+        "cannot access my account",
+        "login error",
+        "app crashing",
+        "technical issue",
+        "can't log in",
+        "account access problem",
+        "login problem",
+        "app not responding",
+        "i cannot log in",
+        "unable to login",
+        "login not working",
+        "access denied",
+        "login failure",
+        "authentication error",
+        "account locked",
+        "password not working",
+        "site not loading"
+      ],
+      "responses": [
+        "Let me troubleshoot that issue for you.",
+        "Sorry about the technical trouble! Let's fix it.",
+        "Can you describe the technical issue?"
+      ]
+    }
+  ]
+}
