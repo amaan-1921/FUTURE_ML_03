@@ -3,19 +3,19 @@
 
 This repository contains the code for building a simple chatbot that can respond to customer queries using an FAQ dataset.
 
-### Features
+## Features
 
-- Data Preprocessing and Cleaning
-- Text Tokenization and Padding
-- LSTM-based model for classification
-- Function to generate chatbot responses
+- Intent classification using a deep learning model (`intent_classifier.h5`)
+- Text preprocessing and vectorization
+- Multiple predefined intents with sample patterns and responses (stored in `intents.json`)
+- Flask-based web interface for interactive chatting
+- Logs predicted intents for future insights
 
-### Usage
-
-1. Place your `customer_support_tickets.csv` file inside the `data/` folder.
-2. Open the `notebooks/chatbot_task3.ipynb` file.
-3. Run the notebook cell-by-cell to build, train, and test the chatbot.
-4. Use the `chatbot_response()` function to get a chatbot reply for user queries.
+## Notes
+- The chatbot uses a trained Keras model for intent classification.
+- Text preprocessing is handled in scripts/preprocess.py.
+- Responses are fetched from intents.json based on predicted intent.
+- Intent logs are saved to intent_logs.txt for future analysis.
 
 ### Dataset
 
